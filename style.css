@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'kongtext';
+    src: url('kongtext.ttf') format('truetype');
+  }
+  
+
+body { 
+    margin: 0;
+    /* background-attachment: fixed; */
+    padding: 0;
+    font-family: 'kongtext';
+    background: radial-gradient(circle, #9E3030, #070A2F, #542141);
+    background-size: 800% 800%;
+    animation: swirly-gradient 30s ease infinite;
+  }
+
+  .text {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main {
+    position: relative;
+    height: 1000px;
+  }
+
+  .section {
+    position: relative;
+    height: 500px;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .section h2 {
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    width: 40%;
+  }
+
+  .section h3 {
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    width: 40%;
+    float: right;
+  }
+  
+  .section2 {
+    background-image: url('ronna.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .section3 {
+    background-image: url('travis-scott-belt.gif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .section4 {
+    background-image: url('duke.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .section5 {
+    background-image: url('myrtle.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .section6 {
+    background-image: url('palace.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+
+  @keyframes swirly-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
